@@ -1,0 +1,11 @@
+<template name="body">
+  {{> mobile_nav}}
+  <div class="content-wrapper">
+    {{> nav}}
+    {{> error}}
+    {{{renderPage}}}
+    {{> notifications}}
+    {{> footer}}
+    <div class="overlay hidden"></div>
+  </div>
+</template>

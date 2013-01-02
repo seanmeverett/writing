@@ -1,0 +1,10 @@
+{
+  "meteor": {
+    "branch": "master"
+  },
+  "packages": {
+    "router": {},
+    "moment": {},
+    "profiler": {"git": "https://github.com/tmeasday/meteor-profiler.git"}
+  }
+}
